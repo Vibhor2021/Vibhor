@@ -1,0 +1,16 @@
+import scala.collection.mutable
+import scala.io.StdIn.{readChar, readInt, readLine}
+
+object Demo {
+  def main(args: Array[String]): Unit = {
+
+  println("Enter the first value");
+  var Value= readInt();
+
+    println("Enter the second value");
+   var value1 = readInt();
+    var sum = Value+ value1
+
+     println(sum);
+   }
+}
