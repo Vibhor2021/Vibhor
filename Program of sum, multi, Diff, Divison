@@ -1,0 +1,28 @@
+import scala.collection.immutable.Nil.sum
+import scala.collection.mutable
+import scala.io.StdIn.{readChar, readInt, readLine}
+
+object Classes {
+  def main(args: Array[String]): Unit = {
+
+    println("Enter the first value")
+       var value = readInt()
+
+    println("Enter the second value")
+    var value2 = readInt()
+
+     var sum = value+ value2;
+    println("Value of Sum " + sum);
+
+    var diff2 = value - value2;
+    println("Value of difference "+ diff2)
+
+    var multi = value * value2
+    println("Value of multiply " + multi)
+
+    var division = value / value2
+    println("Value of divison "+ division)
+
+
+
+  }
