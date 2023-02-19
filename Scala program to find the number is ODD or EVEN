@@ -1,0 +1,20 @@
+
+object oddeven{
+
+ def main(args: Array[String]) {
+    
+    var num = 0;
+    var result = ""
+
+    println("Enter the number");
+    num = readInt()
+
+    result = if (num % 2 == 0) {
+      "EVEN"
+    }
+    else {
+      "ODD"
+    }
+     println("Number is" + result);
+  }
+}
