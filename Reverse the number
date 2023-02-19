@@ -1,0 +1,21 @@
+import scala.collection.mutable
+import scala.io.StdIn.{readChar, readInt, readLine}
+
+
+
+object reverse {
+def main(args: Array[String]): Unit = {
+    println("Enter the number ");
+    var number = readInt()
+    var rem = 0;
+
+    while(number !=0 ){
+      rem = number%10;
+      number = number/10;
+      println(rem);
+
+    }
+
+  }
+}
+
